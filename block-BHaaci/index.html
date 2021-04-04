@@ -1,0 +1,52 @@
+<!-- - Create a forms according to the layout shown below.
+
+![Building HTML forms Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-1.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container flex">
+                <div class="left_content flex">
+                    <h1 class="heading">Learn to code by watching others</h1>
+                    <p class="para">See how experienced developers solve problems in real-time Watching scirpted tutorial is great, but 
+                        understanding how devlopers think is invaluable.
+                    </p>
+                </div>
+
+                <div class="right_content flex">
+                    <div class="try_it_free flex">
+                        <span class="span_strong">Try it free 7 days </span><span>Then $20/mo.therafter</span>
+                    </div>
+                    <form action="login" method="POST" class="flex">
+                        <input class="input_field" type="text" name="Firstname" placeholder="First Name">
+                        <input class="input_field" type="text" name="Lastname" placeholder="Last Name">
+                        <input class="input_field" type="email" name="Email" placeholder="Email Address">
+                        <input class="input_field" type="password" name="password" placeholder="password">
+                        <button class="btn_for_claim">CLAIM YOUR FREE TRAIL</button>
+                        <p class="terms_service">By clicking the button you are agreeing to our <span class="color_red">Terms and Services</span></p>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
